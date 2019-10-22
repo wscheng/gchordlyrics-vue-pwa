@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.3c32dfbdd3441487a9016c11e45e6aeb.js"
+  "/precache-manifest.2323ea8fcbb161791bc7b316c1190e46.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "gchordlyrics"});
