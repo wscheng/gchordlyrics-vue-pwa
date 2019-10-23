@@ -17,7 +17,7 @@
       role="combobox"
       spellcheck="false"
     -->
-    <ul class="list-group mt-4">
+    <ul class="list-group mt-4 mb-4">
       <!--  -->
       <li class="list-group-item" v-for="song in filterSongs" :key="song.name">
         <router-link :to="{ name: 'SongLyrics', params: { songName: song.name } }">{{ song.name }}</router-link>
