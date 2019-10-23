@@ -3,12 +3,8 @@
     <div class="card" style="width: 18rem;">
       <div class="card-body">
         <h5 class="card-title">{{songName}}</h5>
-        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-        <p
-          class="card-text"
-        >Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="card-link">Card link</a>
-        <a href="#" class="card-link">Another link</a>
+        <!-- <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> -->
+        <p class="card-text"><pre>{{lyricsContent}}</pre></p>
       </div>
     </div>
   </div>
@@ -19,20 +15,22 @@ export default {
   name: "SongLyrics",
   data() {
     return {
-      songName: this.$route.params.songName
+      songName: this.$route.params.songName,
+      lyricsContent: ""
     };
-  },
-  computed: {
-    filterSongs() {
-      const vm = this;
-      return vm.allSongs.filter(song => song.name.includes(vm.searchWord));
-    }
   },
   methods: {
     getAllSongs() {}
   },
   created() {
-    this.getAllSongs();
+    const vm = this;
+    vm.getAllSongs();
+    /*eslint no-console: ["error", { allow: ["warn", "error"] }] */
+    console.warn("../../public/lyrics/" + vm.songName);
+    // https://github.com/webpack/webpack/issues/6680#issuecomment-370800037
+    import("../../public/lyrics/" + vm.songName + ".txt").then(x => {
+      vm.lyricsContent = x.default;
+    });
   }
 };
 </script>

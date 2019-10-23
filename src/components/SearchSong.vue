@@ -62,12 +62,6 @@ export default {
 
       const songName = name.slice(2, -4);
       vm.allSongs.push({ name: songName });
-
-      // https://github.com/webpack/webpack/issues/6680#issuecomment-370800037
-      const fileName = name.substring(2);
-      import("../../public/lyrics/" + fileName).then(x => {
-        console.warn(x.default);
-      });
     });
   }
 };
