@@ -1,5 +1,6 @@
 <template>
   <div class="about mx-auto" style="width: 350px">
+    <img alt="GChord logo" src="../assets/logo.png" />
     <h1>G和弦吉他社</h1>
     <p>喜歡音樂嗎？想要學吉他嗎？一起來玩音樂吧！</p>
     <p>以下為八股正經版介紹</p>
@@ -18,5 +19,35 @@
       以音樂和快樂幫助弱勢發聲
       和讓多元多元性別族群文化延續下去為己任永續發展。
     </p>
+    <a href="https://www.facebook.com/Gchordclub">
+      <svg width="50" height="50" class="m-4">
+        <image
+          xlink:href="../assets/facebook.svg"
+          src="../assets/facebook.svg"
+          width="50"
+          height="50"
+        />
+      </svg>
+    </a>
+    <a href="https://www.instagram.com/gchordclubs/">
+      <svg width="50" height="50" class="m-4">
+        <image
+          xlink:href="../assets/instagram.svg"
+          src="../assets/instagram.svg"
+          width="50"
+          height="50"
+        />
+      </svg>
+    </a>
+    <a href="https://www.youtube.com/channel/UCkszLD76tJn1tPHfHPNjZDg">
+      <svg width="50" height="50" class="m-4">
+        <image
+          xlink:href="../assets/youtube.svg"
+          src="../assets/youtube.svg"
+          width="50"
+          height="50"
+        />
+      </svg>
+    </a>
   </div>
 </template>
