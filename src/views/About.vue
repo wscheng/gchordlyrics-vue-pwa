@@ -1,8 +1,11 @@
 <template>
-  <div class="about mx-auto" style="width: 350px">
+  <div class="about mx-auto" style="width: 320px">
     <img alt="GChord logo" src="../assets/logo.png" />
     <h1>G和弦吉他社</h1>
-    <p>喜歡音樂嗎？想要學吉他嗎？一起來玩音樂吧！</p>
+    <p class="font-weight-bold">
+      喜歡音樂嗎？喜歡唱歌嗎？想要學吉他嗎？
+      <br />一起來玩音樂吧！
+    </p>
     <p>以下為八股正經版介紹</p>
     <p>
       G和弦吉他社正式創立於2016年7月份,
