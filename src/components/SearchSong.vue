@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="mx-auto" style="width: 320px">
     <input
       class="form-control mx-auto"
       style="width: 200px;"
