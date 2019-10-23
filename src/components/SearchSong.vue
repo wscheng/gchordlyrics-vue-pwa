@@ -1,9 +1,26 @@
 <template>
   <div>
-    <input type="text" v-model="searchWord" placeholder="輸入歌名找歌詞" />
+    <input
+      class="form-control mx-auto"
+      style="width: 200px;"
+      type="search"
+      v-model="searchWord"
+      autocomplete="off"
+      placeholder="輸入歌名找歌詞"
+    />
+    <!--
+      NOTE: autocomplete set to off, the mobile IME will not wait user to input a complete word
+      aria-autocomplete="both"
+      aria-haspopup="false"
+      autocapitalize="off"
+      autocorrect="off"
+      role="combobox"
+      spellcheck="false"
+    -->
     <ul class="list-group mt-4">
+      <!--  -->
       <li class="list-group-item" v-for="song in filterSongs" :key="song.name">
-        <router-link :to="{ name: 'SongLyrics', params: {songName: song.name} }">{{song.name}}</router-link>
+        <router-link :to="{ name: 'SongLyrics', params: { songName: song.name } }">{{ song.name }}</router-link>
       </li>
     </ul>
   </div>
@@ -15,14 +32,10 @@ export default {
     return {
       searchWord: "",
       allSongs: [
-        {
-          name: "test1",
-          content: "ahahhah"
-        },
-        {
-          name: "test2",
-          content: "EEEE"
-        }
+        // {
+        //   name: "songName",
+        //   songInfo: "unique Info"
+        // }
       ]
     };
   },
@@ -36,15 +49,25 @@ export default {
     getAllSongs() {}
   },
   created() {
-    this.getAllSongs();
-    // var tmp = require.context("../../public/lyrics", false, /^.*\.txt$/);
-    var tmp = require.context("../../public/lyrics", false, /^.*$/);
-    console.warn("test=>XXX", tmp);
-    tmp.keys().forEach(name => {
+    const vm = this;
+    vm.getAllSongs();
+    var lyricsFiles = require.context(
+      "../../public/lyrics/",
+      false,
+      /^.*.txt$/
+    );
+
+    lyricsFiles.keys().forEach(name => {
       /*eslint no-console: ["error", { allow: ["warn", "error"] }] */
-      console.warn("test=>", name);
-      // var test = require("raw-loader!./static/" + name);
-      // console.log("content=>", test);
+
+      const songName = name.slice(2, -4);
+      vm.allSongs.push({ name: songName });
+
+      // https://github.com/webpack/webpack/issues/6680#issuecomment-370800037
+      const fileName = name.substring(2);
+      import("../../public/lyrics/" + fileName).then(x => {
+        console.warn(x.default);
+      });
     });
   }
 };
