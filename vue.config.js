@@ -13,5 +13,8 @@ module.exports = {
       .use("raw-loader")
       .loader("raw-loader")
       .end();
+  },
+  pwa: {
+    themeColor: "#fd7e14"
   }
 };
