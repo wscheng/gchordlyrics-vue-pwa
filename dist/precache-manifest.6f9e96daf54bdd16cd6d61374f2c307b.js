@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "97a52c230e245cff7f6b",
+    "revision": "0df49dd51c9c6208a8d1",
     "url": "/css/app.b17adf27.css"
   },
   {
@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/img/youtube.55767723.svg"
   },
   {
-    "revision": "cfdfc4b295477385fff7df41828f7a45",
+    "revision": "cfad61736aa117f84aea4a8257aeb64d",
     "url": "/index.html"
   },
   {
@@ -28,15 +28,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/js/about.012302be.js"
   },
   {
-    "revision": "97a52c230e245cff7f6b",
-    "url": "/js/app.c3a1f4a3.js"
+    "revision": "0df49dd51c9c6208a8d1",
+    "url": "/js/app.c43f64eb.js"
   },
   {
     "revision": "2e9d161c0dca6a5071b9",
     "url": "/js/chunk-vendors.f8250b3b.js"
   },
   {
-    "revision": "74a34ad6c88ac4ff39a6605d36ddd2f8",
+    "revision": "63f989bede01cc8e5448510921f31c31",
     "url": "/lyrics/A thousand years.txt"
   },
   {
@@ -44,11 +44,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lyrics/I See The Light.txt"
   },
   {
-    "revision": "f55d6a9f3ee08a729ee8766703eeb460",
+    "revision": "8f8c7526a0b6ecacde35d9abf9845476",
     "url": "/lyrics/Perfect.txt"
   },
   {
-    "revision": "00a8431d258de285b681354dbfdd3758",
+    "revision": "2530735d829150dcb9ef67b846dd928c",
     "url": "/lyrics/Price Tag.txt"
   },
   {
@@ -164,12 +164,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lyrics/愛是唯一.txt"
   },
   {
-    "revision": "97338ab5850c22091ee516861857bfd5",
+    "revision": "fb675cb603e2254f1f5d4ee757ee1f04",
     "url": "/lyrics/愛著愛著就永遠.txt"
   },
   {
-    "revision": "f4a6c80fb806d2341d579331ab635b5e",
+    "revision": "f9108c783e24a237577a899d08f8640c",
     "url": "/lyrics/慢慢喜歡你.txt"
+  },
+  {
+    "revision": "05c82aca495efd9b5b9f5c14ee053058",
+    "url": "/lyrics/戀人未滿.txt"
   },
   {
     "revision": "83b8c6907bbb7edada31c61fedfd00e0",
@@ -196,11 +200,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lyrics/我還年輕 我還年輕.txt"
   },
   {
-    "revision": "1bf21328850e25289e2daf785d2418f2",
+    "revision": "661cea43b9d260a1d655ac19fccfe40c",
     "url": "/lyrics/擁抱.txt"
   },
   {
-    "revision": "4c50b7d30695e42d22521a5497dac673",
+    "revision": "6b741e2d239103e59b5bace3172ab3c5",
     "url": "/lyrics/明天我要嫁給你.txt"
   },
   {
@@ -212,7 +216,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lyrics/星晴.txt"
   },
   {
-    "revision": "008f524143cc1025cef9464af8b205ec",
+    "revision": "b3e61cec3ebd99acfcbcd3fc7517191f",
     "url": "/lyrics/暖暖.txt"
   },
   {
@@ -236,7 +240,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lyrics/無眠.txt"
   },
   {
-    "revision": "33fd67072075ea8d61fb2589f3cb4c00",
+    "revision": "cc7c5c1de29ffed391b559fadf3cc91a",
     "url": "/lyrics/玫瑰少年.txt"
   },
   {
@@ -244,11 +248,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lyrics/玫瑰色的你.txt"
   },
   {
-    "revision": "cae3baa915bbd38832a99291e20c374b",
+    "revision": "5300e1f9bbfd25734a962c7409c935cf",
     "url": "/lyrics/當我們一起走過.txt"
   },
   {
-    "revision": "3b67945ba4e79542a8de7df4f462ba37",
+    "revision": "0e3b19f767fa9eeb8b87f17a85e0bfc1",
     "url": "/lyrics/瘦瘦的.txt"
   },
   {
@@ -264,7 +268,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lyrics/眼淚不要掉下來.txt"
   },
   {
-    "revision": "4abcfff607fbd19a02a23b59f1771d36",
+    "revision": "e51487ae26953be433ac836534e412b0",
     "url": "/lyrics/至少還有你.txt"
   },
   {
@@ -272,7 +276,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lyrics/致姍姍來遲的你.txt"
   },
   {
-    "revision": "200018fc4b375cfa2c866eef695eda7a",
+    "revision": "d75960a42acf50806aab17e58d3b774b",
     "url": "/lyrics/製造浪漫.txt"
   },
   {
@@ -280,11 +284,11 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lyrics/觸電.txt"
   },
   {
-    "revision": "731fd98a96a3f1b0729f6c623d632298",
+    "revision": "ab3761c38fd698e64b481407e628dc2d",
     "url": "/lyrics/說愛你.txt"
   },
   {
-    "revision": "052c5e350b1f0be79b77575f98cb776a",
+    "revision": "7882b4389cb653016530ac383c24f661",
     "url": "/lyrics/謝謝妳愛我.txt"
   },
   {
@@ -308,15 +312,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/lyrics/野薔薇.txt"
   },
   {
-    "revision": "1b7b941562799a7580d32f3158e11098",
+    "revision": "3cd9a430f440bde6f0a05ad8fe846590",
     "url": "/lyrics/關於我愛你.txt"
   },
   {
-    "revision": "fff25b66fa5b31bb25640107bc0bcb55",
+    "revision": "35025fb91ae5779f9186d2134c5ebf4b",
     "url": "/lyrics/雌雄同體.txt"
   },
   {
-    "revision": "bdd07f3fbdb2f34a2125e9457c014270",
+    "revision": "e57c8a3a99f48dcb8390a4ad283673a1",
     "url": "/lyrics/願溫柔的妳被世界溫柔以待.txt"
   },
   {
@@ -334,9 +338,5 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "b6216d61c03e6ce0c9aea6ca7808f7ca",
     "url": "/robots.txt"
-  },
-  {
-    "revision": "05c82aca495efd9b5b9f5c14ee053058",
-    "url": "/戀人未滿.txt"
   }
 ]);
